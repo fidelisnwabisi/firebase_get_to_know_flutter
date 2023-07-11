@@ -17,7 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 
 # Source of the Tutorial
 
-[Codelab: Get to know Firebase for Flutter](https://www.youtube.com/watch?v=wUSkeTaBonA)
+[Youtube: Get to know Firebase for Flutter](https://www.youtube.com/watch?v=wUSkeTaBonA)
+
+[Firebase Codelab: Get to know Firebase for Flutter](https://firebase.google.com/codelabs/firebase-get-to-know-flutter)
 
 # Time Stamp
-15:39
+15:56
