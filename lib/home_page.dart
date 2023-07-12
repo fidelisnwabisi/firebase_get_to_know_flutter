@@ -4,6 +4,7 @@
 
 import 'package:firebase_auth/firebase_auth.dart'
     hide EmailAuthProvider, PhoneAuthProvider;
+import 'package:firebase_get_to_know_flutter/guest_book.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -44,8 +45,22 @@ class HomePage extends StatelessWidget {
           const Paragraph(
             'Join us for a day full of Firebase Workshops and Pizza!',
           ),
+          const Header("Discussion"),
+          GuestBook(addMessage: (String message) => print(message)),
+
+          // Consumer<ApplicationState>(
+          //   builder: (context, appState, _) => Column(
+          //     crossAxisAlignment: CrossAxisAlignment.start,
+          //     children: [
+          //       if (appState.loggedIn) ...[const Header("heading")]
+          //     ],
+          //   ),
+          // ),
         ],
       ),
     );
   }
 }
+
+// https://www.youtube.com/watch?v=fD7JL4Q5-Bk
+// https://www.youtube.com/watch?v=Bz_v0nXZn3M
